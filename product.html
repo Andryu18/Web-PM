@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Menú | Restaurante El Cisne</title>
+<meta name="description" content="Menú completo de Restaurante El Cisne: sopa del día, platos especiales, ajiaco con pollo, ejecutivos, bandeja paisa y almuerzo corriente." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Lobster+Two:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <div class="topbar-links">
+      <span>Restaurante El Cisne</span>
+      <span>Lun - Dom: 8:00am - 4:00pm</span>
+    </div>
+    <div class="topbar-links">
+      <span>320 419 8609 · 320 406 5469</span>
+    </div>
+  </div>
+</div>
+
+<header class="navbar">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <img src="img/CisneImage.png" alt="Restaurante El Cisne" />
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Inicio</a>
+      <a href="product.html" class="active">Menú</a>
+      <a href="contact.html">Contacto</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="btn btn-primary" href="https://wa.me/573204198609" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.5 15.2L2 22l4.9-1.5A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .9.9-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.7.8-.8.9-.2.2-.3.2-.5.1-.2-.1-1-.4-1.9-1.2-.7-.6-1.2-1.4-1.3-1.6-.1-.2 0-.4.1-.5l.4-.4c.1-.1.2-.2.2-.4.1-.1 0-.3 0-.4 0-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 1.9s.8 2.2.9 2.4c.1.2 1.6 2.5 4 3.5.6.2 1 .4 1.3.5.6.2 1.1.1 1.5.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2-.1-.1-.2-.2-.5-.3z"/></svg>
+        Pedir por WhatsApp
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section class="page-header">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Inicio</a> / Menú</div>
+    <span class="section-tag">Menú para hoy</span>
+    <h1>Nuestro Menú</h1>
+    <p>Comida casera preparada cada día. Todos los platos vienen con sopa y limonada. Domicilio gratis por WhatsApp.</p>
+  </div>
+</section>
+
+<section class="menu-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Para comenzar</span>
+      <h2>Sopa del día &amp; Especiales</h2>
+      <p>Directo de la parrilla y la olla, con el sabor casero de siempre.</p>
+    </div>
+    <div class="dish-grid" style="grid-template-columns: repeat(auto-fit, minmax(240px,1fr));">
+      <article class="dish-card">
+        <div class="dish-img"><img src="img/sopa-web.jpg" alt="Sopa de arroz" /></div>
+        <div class="dish-body">
+          <span class="dish-tag">Sopa del día</span>
+          <h3>Sopa de Arroz</h3>
+          <p>Incluida en el almuerzo corriente, servida bien caliente.</p>
+        </div>
+      </article>
+      <article class="dish-card">
+        <div class="dish-img">
+          <img src="img/ejecutivo-web.jpg" alt="Churrasco" />
+          <span class="dish-price">$21.000</span>
+        </div>
+        <div class="dish-body">
+          <span class="dish-tag">Especial</span>
+          <h3>Churrasco</h3>
+          <p>Corte a la parrilla con papas a la francesa y ensalada.</p>
+        </div>
+      </article>
+      <article class="dish-card">
+        <div class="dish-img">
+          <img src="img/ejecutivo-web.jpg" alt="Churrasquito" />
+          <span class="dish-price">$16.000</span>
+        </div>
+        <div class="dish-body">
+          <span class="dish-tag">Especial</span>
+          <h3>Churrasquito</h3>
+          <p>Porción individual de nuestro churrasco a la parrilla.</p>
+        </div>
+      </article>
+      <article class="dish-card">
+        <div class="dish-img">
+          <img src="img/especiales-web.jpg" alt="Mojarra 1 libra" />
+          <span class="dish-price">$21.000</span>
+        </div>
+        <div class="dish-body">
+          <span class="dish-tag">Especial</span>
+          <h3>Mojarra 1 LB</h3>
+          <p>Mojarra frita de libra completa con patacón y ensalada.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="menu-section">
+  <div class="container">
+    <div class="combo-banner">
+      <div>
+        <h3>Ajiaco con pollo</h3>
+        <p>Acompañado de pierna pernil sudada, arroz, aguacate y bebida.</p>
+      </div>
+      <div class="combo-price">
+        <strong>$16.000</strong>
+        <span>Precio único</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="menu-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Platos ejecutivos</span>
+      <h2>Desde $15.000</h2>
+      <p>Elige tu proteína favorita, todos acompañados con sopa y limonada.</p>
+    </div>
+    <div class="menu-columns" style="grid-template-columns: 1fr 1fr; align-items:center;">
+      <img src="img/ejecutivo-web.jpg" alt="Plato ejecutivo a la parrilla" style="border-radius: var(--radius-lg); box-shadow: var(--shadow-card); width:100%; aspect-ratio: 4/3; object-fit:cover;" />
+      <ul class="check-list menu-list-card">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> Carne asada</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> Costilla de cerdo frita</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> Costilla de cerdo BBQ</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> Pierna pernil frita</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> Milanesa de pechuga</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> Pechuga a la plancha</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> Pierna pernil sudada</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> Sobre barriga dorada</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="menu-section">
+  <div class="container">
+    <div class="dish-grid" style="grid-template-columns: 1fr 1fr;">
+      <article class="dish-card">
+        <div class="dish-img">
+          <img src="img/bandeja-web.jpg" alt="Bandeja Paisa" />
+          <span class="dish-price">$14.000</span>
+        </div>
+        <div class="dish-body">
+          <span class="dish-tag">Tradicional</span>
+          <h3>Bandeja Paisa</h3>
+          <p>Fríjoles, arroz, carne molida, chicharrón, huevo frito, aguacate, arepa y plátano.</p>
+        </div>
+      </article>
+      <div class="menu-list-card">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+          Almuerzo Corriente
+        </h3>
+        <div class="menu-line"><span>Incluye sopa + proteína + principio</span></div>
+        <div class="menu-line"><span>+ arroz + ensalada + limonada</span></div>
+        <div class="menu-line" style="border-bottom:none; padding-top:16px;">
+          <span style="font-family: var(--font-display); font-size:15px;">Precio único</span>
+          <span class="price" style="font-size:26px;">$11.500</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="tag-columns">
+      <div class="menu-list-card">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/></svg>
+          Principio — elige uno
+        </h3>
+        <div class="tag-chip-group">
+          <span class="tag-chip">Fríjol</span>
+          <span class="tag-chip">Garbanzo</span>
+          <span class="tag-chip">Pepino</span>
+        </div>
+      </div>
+      <div class="menu-list-card">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/></svg>
+          Proteína — elige una
+        </h3>
+        <div class="tag-chip-group">
+          <span class="tag-chip">Lomo asado</span>
+          <span class="tag-chip">Ternera</span>
+          <span class="tag-chip">Pollo frito</span>
+          <span class="tag-chip">Pollo sudado</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <h2>Todos los platos van con sopa y limonada</h2>
+    <p>Haz tu pedido por WhatsApp y recíbelo en la puerta de tu casa, con domicilio gratis.</p>
+    <a href="https://wa.me/573204198609" target="_blank" rel="noopener" class="btn btn-primary">Pedir por WhatsApp</a>
+  </div>
+</section>
+
+<footer class="footer" id="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand"><img src="img/CisneImage.png" alt="Restaurante El Cisne" /></a>
+        <p>Buen sabor, siempre. Comida casera, almuerzos ejecutivos y especiales a la parrilla con domicilio gratis.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.5H16l.5-3H13.5V8.5c0-.9.3-1.5 1.6-1.5H16.5V4.3C16.2 4.3 15.2 4 14 4c-2.4 0-4 1.5-4 4.2V10.5H7.5v3H10V21Z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="https://wa.me/573204198609" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.5 15.2L2 22l4.9-1.5A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .9.9-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="product.html">Menú</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Horario</h4>
+        <ul>
+          <li>Lunes a Domingo</li>
+          <li>8:00am – 4:00pm</li>
+          <li>Domicilio gratis</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <ul class="footer-contact">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 0 0-8.5 15.2L2 22l4.9-1.5A10 10 0 1 0 12 2Z"/></svg>
+            <span>320 419 8609 · 320 406 5469</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Restaurante El Cisne</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 Restaurante El Cisne — ¡Buen sabor, siempre!</div>
+  </div>
+</footer>
+
+<a href="https://wa.me/573204198609" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Escríbenos por WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.5 15.2L2 22l4.9-1.5A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .9.9-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.7.8-.8.9-.2.2-.3.2-.5.1-.2-.1-1-.4-1.9-1.2-.7-.6-1.2-1.4-1.3-1.6-.1-.2 0-.4.1-.5l.4-.4c.1-.1.2-.2.2-.4.1-.1 0-.3 0-.4 0-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 1.9s.8 2.2.9 2.4c.1.2 1.6 2.5 4 3.5.6.2 1 .4 1.3.5.6.2 1.1.1 1.5.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2-.1-.1-.2-.2-.5-.3z"/></svg>
+</a>
+
+<script src="main.js"></script>
+</body>
+</html>
